@@ -2,7 +2,7 @@
 const livros = require('../database')
 const read = require('readline-sync')
 
-//funçãobuscarLibros
+//funçãobuscarLivros
 const buscarLivros = () => {
     const opcaoInicial = read.question('Deseja buscar por categoria? (S/N) ').toUpperCase()
 

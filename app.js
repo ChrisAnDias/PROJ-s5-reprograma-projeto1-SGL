@@ -30,19 +30,15 @@ const resposta = read.question(`
 
 switch (resposta) {
     case '1':
-        //chamar a função buscar livros. Que tá no arquivo dentro do controllers
         buscarLivros()
         break
     case '2':
-        //chame a função ordenar.
         listarLivrosOrdenados()
         break
     case '3':
-        //chame a função recomendados.
         listaRecomendados()
         break
     case '4':
-        //chame a função lista de desejos
         listarLivrosNaoLidos()
     default:
         console.log('Fim do algoritmo')
